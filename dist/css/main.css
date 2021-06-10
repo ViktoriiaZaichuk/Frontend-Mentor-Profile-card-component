@@ -1,0 +1,123 @@
+/* COLORS */
+/* FONTS */
+/* GENERAL STYLES */
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #969696;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/ViktoriiaZaichuk/Frontend-Mentor-Profile-card-component/9846e0873ed38122e2f68a40819b9e0fd25d2680/img/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/ViktoriiaZaichuk/Frontend-Mentor-Profile-card-component/9846e0873ed38122e2f68a40819b9e0fd25d2680/img/bg-pattern-bottom.svg");
+  background-attachment: fixed, fixed;
+  background-position: right 45vw bottom 45vh, left 45vw top 55vh;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#card-container {
+  background-color: white;
+  min-height: 37rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1.5rem;
+}
+
+.pattern {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+#personal-data {
+  position: relative;
+}
+
+h1 {
+  padding-top: 7rem;
+}
+
+#personal-data p {
+  padding: 1rem 2rem 2.5rem 2rem;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: white;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+h1, h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #2d3248;
+}
+
+span {
+  font-weight: 400;
+  color: #969696;
+}
+
+#stats {
+  border-top: 0.05rem solid rgba(150, 150, 150, 0.507);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 9rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+#stats p {
+  font-size: 1.2rem;
+}
+
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
