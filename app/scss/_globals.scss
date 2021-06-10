@@ -1,0 +1,31 @@
+/* GENERAL STYLES */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $darkCyan;
+    font-family: $font;
+    font-size: 1.4rem; 
+    text-align: center;
+    color: $darkGrayNeutral;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/ViktoriiaZaichuk/Frontend-Mentor-Profile-card-component/9846e0873ed38122e2f68a40819b9e0fd25d2680/img/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/ViktoriiaZaichuk/Frontend-Mentor-Profile-card-component/9846e0873ed38122e2f68a40819b9e0fd25d2680/img/bg-pattern-bottom.svg");
+    background-attachment: fixed, fixed;
+    background-position: right 45vw bottom 45vh, left 45vw top 55vh;
+    background-repeat: no-repeat, no-repeat;
+}
